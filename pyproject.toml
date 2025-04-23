@@ -14,5 +14,6 @@ dependencies = [
     "ibis-framework[duckdb]",
     "openpyxl",
     "pyarrow",
+    "ipykernel",
     "altair"
 ]

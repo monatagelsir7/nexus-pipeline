@@ -246,7 +246,7 @@ def process_wb(raw_data_path: Path) -> Tuple[pd.DataFrame, pd.DataFrame, pd.Data
 
     wb_nexus = pd.concat([pefa, taxwb, wdi, wgi], ignore_index=True)
 
-    return pefa, taxwb, wb_nexus
+    return wb_nexus
 
 def process_gfi(raw_data_path: Path) -> pd.DataFrame:
     """
@@ -447,3 +447,41 @@ def clean_nexus_data(nexus: pd.DataFrame) -> pd.DataFrame:
         .assign(value=lambda df: pd.to_numeric(df["value"], errors="raise"))
         .drop(columns=["value_str"])
     )
+
+def country_classifiers(
+        df: pd.DataFrame, 
+        classifiers_path: Path
+    ) -> pd.DataFrame:
+    """Merge country classifications with input DataFrame."""
+
+    columns_order=[
+            'country_or_area',
+            'iso3',
+            "source", 
+            "database", 
+            "collection",
+            'indicator_code',
+            'indicator_label',
+            'year',
+            'value',
+            'value_meta'
+        ]
+    
+    result = (
+        df
+        .merge(
+            pd.read_csv(classifiers_path)
+            .rename(columns=snake_case),
+            left_on='country',
+            right_on='iso3',
+            how='left'
+        )
+        .drop(columns="country")
+    )
+    
+    # Log match statistics
+    matches = result['iso3'].notna().sum()
+    print(f"Country match: {matches}/{len(df)} records ({matches/len(df)*100:.1f}%)")
+    
+    return result
+

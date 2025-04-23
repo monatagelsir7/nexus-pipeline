@@ -16,6 +16,7 @@ Extracts, transforms, and loads data from various sources.
 import os
 import pandas as pd
 import logging
+import time
 from pathlib import Path
 import sys
 
@@ -30,7 +31,8 @@ from process import (
     process_usaid, 
     process_fsi, 
     process_unodc, 
-    clean_nexus_data
+    clean_nexus_data,
+    country_classifiers
 )
 
 # Path configuration
@@ -42,12 +44,6 @@ PROCESSED_DATA_PATH = DATA_DIR / "processed"
 # Ensure output directory exists
 PROCESSED_DATA_PATH.mkdir(parents=True, exist_ok=True)
 
-def print_shapes(dfs: dict):
-    """Print the shape of each DataFrame."""
-    for name, df in dfs.items():
-        rows, columns = df.shape
-        print(f"{name}: rows = {rows}, cols = {columns}")
-
 def main():
     """
     Main function to run the data processing pipeline.
@@ -58,64 +54,52 @@ def main():
     logger = logging.getLogger(__name__)
     
     logger.info("Starting data processing pipeline")
-    
-    # Process each data source
-    logger.info("Processing ISORA data")
-    isora = process_isora(RAW_DATA_PATH)
-    
-    logger.info("Processing World Bank data")
-    pefa, taxwb, wb_nexus = process_wb(RAW_DATA_PATH)
-    
-    logger.info("Processing GFI data")
-    gfi = process_gfi(RAW_DATA_PATH)
-    
-    logger.info("Processing USAID data")
-    usaid = process_usaid(RAW_DATA_PATH)
-    
-    logger.info("Processing FSI data")
-    fsi = process_fsi(RAW_DATA_PATH)
-    
-    logger.info("Processing UNODC data")
-    unodc = process_unodc(RAW_DATA_PATH)
+
+    # Process sources and store results
+    source_funcs = {
+        "isora": process_isora,
+        "wb_nexus": process_wb,
+        "gfi": process_gfi,
+        "usaid": process_usaid,
+        "fsi": process_fsi,
+        "unodc": process_unodc,
+    }
+
+    results = {}
+
+    for source, func in source_funcs.items():
+        start_time = time.time()
+        try:
+            results[source] = func(RAW_DATA_PATH)
+            processing_time = time.time() - start_time
+            rows, columns = results[source].shape
+            logger.info(f"SUCCESS - {source}: rows = {rows}, cols = {columns} ({processing_time:.2f} seconds)")
+        except Exception as e:
+            logger.error(f"Error processing {source} data: {e}")
     
     # Combine all data sources
     logger.info("Combining all NEXUS data sources")
     nexus = pd.concat(
-        [isora, wb_nexus, gfi, usaid, fsi, unodc],
+        [results[key] for key in ["isora", "wb_nexus", "gfi", "usaid", "fsi", "unodc"]],
         ignore_index=True
     )
     
     # Clean and process the combined data
-    logger.info("Cleaning combined data")
+
+
+    logger.info("Cleaning missing data & merging country classifiers")
     nexus_cleaned = clean_nexus_data(nexus)
+    nexus_extended = country_classifiers(nexus_cleaned, DATA_DIR /'country_classifiers.csv')
+    rows, columns = nexus_extended.shape
     
-    # Print the shape of each DataFrame
-    datasets = {
-        "nexus": nexus_cleaned,
-        "isora": isora,
-        "worldbank": wb_nexus,
-        "gfi": gfi,
-        "usaid": usaid,
-        "fsi": fsi,
-        "unodc": unodc
-    }
-    print_shapes(datasets)
-    
-    # Prepare output datasets
-    processed_output = {
-        "pefa": pefa,
-        "taxwb": taxwb,
-        "nexus": nexus_cleaned
-    }
-    
-    # Export each DataFrame to Parquet
-    logger.info("Exporting data to Parquet files")
-    for name, df in processed_output.items():
-        output_path = PROCESSED_DATA_PATH / f"{name}.parquet"
-        logger.info(f"Writing {name} to {output_path}")
-        df.to_parquet(output_path, index=False)
+    output_path = PROCESSED_DATA_PATH / "nexus.parquet"
+    logger.info(f"Writing Nexus to {output_path}")
+    nexus_extended.to_parquet(output_path, index=False)
     
     logger.info("Data processing complete")
+    logger.info("NEXUS INFO")
+    print(f"rows = {rows}, cols = {columns}")
+    print(f'{nexus_extended.info()}')
 
 if __name__ == "__main__":
     main()

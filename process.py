@@ -7,7 +7,6 @@ from ibis import _, selectors as s
 import wbgapi as wb
 import re
 from openpyxl import load_workbook
-from typing import Tuple
 from pathlib import Path
 
 from config import ISORA_FILES, WDI_INDICATOR_CODES, WGI_INDICATOR_LABELS, GFI_CONFIG
@@ -140,7 +139,7 @@ def process_isora(raw_data_path: Path) -> pd.DataFrame:
     
     return isora_data
 
-def process_wb(raw_data_path: Path) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def process_wb(raw_data_path: Path) -> pd.DataFrame:
     """
     Process World Bank data sources into standardized format.
     
@@ -148,7 +147,7 @@ def process_wb(raw_data_path: Path) -> Tuple[pd.DataFrame, pd.DataFrame, pd.Data
         raw_data_path: Path to raw data directory
     
     Returns:
-        Tuple containing PEFA, Tax Capacity & Gap, and combined World Bank DataFrames
+        Dataframe with combined World Bank sources
     """
     # WB PATHS
     pefa_path = raw_data_path / "WB-PEFA.xlsx"

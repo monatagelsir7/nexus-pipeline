@@ -1,0 +1,408 @@
+,source,database,collection,indicator_code,count
+80,GFI,gfi trade mispricing.xlsx,Table A,GFI.TableA.gap_usd_adv,1195
+82,GFI,gfi trade mispricing.xlsx,Table C,GFI.TableC.gap_pct_adv,1185
+79,GFI,gfi trade mispricing.xlsx,Table E,GFI.TableE.gap_usd_all,1199
+81,GFI,gfi trade mispricing.xlsx,Table G,GFI.TableG.gap_pct_all,1189
+141,ISORA,IMF ISORA.xlsx,Electronic filing rates by tax ,Percent CIT returns e-filed,447
+150,ISORA,IMF ISORA.xlsx,Electronic filing rates by tax ,Percent PIT returns e-filed,432
+166,ISORA,IMF ISORA.xlsx,Electronic filing rates by tax ,Percent VAT returns e-filed,405
+132,ISORA,IMF ISORA.xlsx,On-time filing rates by tax typ,On-time filing rate % - Corporate income tax,452
+153,ISORA,IMF ISORA.xlsx,On-time filing rates by tax typ,On-time filing rate % - Employers that withhold tax from employees,423
+144,ISORA,IMF ISORA.xlsx,On-time filing rates by tax typ,On-time filing rate % - Personal income tax,439
+158,ISORA,IMF ISORA.xlsx,On-time filing rates by tax typ,On-time filing rate % - Value added tax,411
+129,ISORA,IMF ISORA.xlsx,Percentage inactive taxpayers o,On CIT register,457
+171,ISORA,IMF ISORA.xlsx,Percentage inactive taxpayers o,On Excise register,283
+146,ISORA,IMF ISORA.xlsx,Percentage inactive taxpayers o,On PAYE register,434
+143,ISORA,IMF ISORA.xlsx,Percentage inactive taxpayers o,On PIT register,442
+159,ISORA,IMF ISORA.xlsx,Percentage inactive taxpayers o,On VAT register,411
+148,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_0,Electronic - fully pre-filled confirmation required-PIT,432
+152,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_0,Electronic - fully pre-filled deemed-PIT,432
+151,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_0,Electronic -not pre-filled or partially pre-filled-PIT,432
+149,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_0,Other-PIT,432
+147,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_0,Paper returns-PIT,434
+163,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_1,Electronic - fully pre-filled confirmation required,405
+167,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_1,Electronic - fully pre-filled deemed,405
+165,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_1,Electronic -not pre-filled or partially pre-filled,405
+164,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_1,Other,405
+162,ISORA,IMF ISORA.xlsx,Proportion of returns by ch_1,Paper returns,407
+138,ISORA,IMF ISORA.xlsx,Proportion of returns by channe,Electronic - fully pre-filled confirmation required-CIT,447
+137,ISORA,IMF ISORA.xlsx,Proportion of returns by channe,Electronic - fully pre-filled deemed-CIT,447
+139,ISORA,IMF ISORA.xlsx,Proportion of returns by channe,Electronic -not pre-filled or partially pre-filled-CIT,447
+142,ISORA,IMF ISORA.xlsx,Proportion of returns by channe,Other-CIT,447
+133,ISORA,IMF ISORA.xlsx,Proportion of returns by channe,Paper returns-CIT,449
+135,ISORA,IMF ISORA.xlsx,Registration of personal income,Active taxpayers on PIT register as percentage of Labor Force,449
+136,ISORA,IMF ISORA.xlsx,Registration of personal income,Active taxpayers on PIT register as percentage of Population,449
+161,ISORA,IMF ISORA.xlsx,Segmentation ratios LTO or prog,Corporate taxpayers managed through LTO/P as percentage of active corporate taxpayers,409
+160,ISORA,IMF ISORA.xlsx,Segmentation ratios LTO or prog,Corporate taxpayers per FTE in LTO/P,411
+156,ISORA,IMF ISORA.xlsx,Segmentation ratios LTO or prog,FTEs in LTO/P as percentage of FTEs,413
+155,ISORA,IMF ISORA.xlsx,Segmentation ratios LTO or prog,"FTEs on audit, investigation and other verification function in the LTO/P as percentage of total FTEs in LTO/P",413
+154,ISORA,IMF ISORA.xlsx,Segmentation ratios LTO or prog,Percentage of net revenue administered under LTO/P in relation to total net revenue collected by the tax administration,413
+169,ISORA,IMF ISORA.xlsx,Segmentation ratios LTO or prog,Total value of additional assessments raised through LTO/P as percentage of total value of additional assessments raised from audits,401
+121,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Audit and verification,Details on all audits and verifiction actions undertaken (excluding electronic compliance checks)-No. of audits completed,465
+119,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Audit and verification,Details on all audits and verifiction actions undertaken (excluding electronic compliance checks)-No. of audits where a tax adjustment was made,466
+95,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Dispute resolution review proce,Mechanisms available for taxpayers to challenge assessments-Independent review by a higher appellate court,468
+88,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Dispute resolution review proce,Mechanisms available for taxpayers to challenge assessments-Independent review by external body,468
+91,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Dispute resolution review proce,Mechanisms available for taxpayers to challenge assessments-Internal review by tax administration,468
+131,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Dispute resolution review proce,Taxpayers must first pursue internal review where an internal review is permissible,453
+172,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Tax crime investigation,No. of tax crime investigation cases referred for prosecution during the fiscal year (where the tax administration has responsibility),278
+406,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Tax crime investigation,"Role of the administration in tax crime investigations - Conducting investigations, under direction of other agency",51
+274,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Tax crime investigation,Role of the administration in tax crime investigations - Directing and conducting investigations,135
+278,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Tax crime investigation,Role of the administration in tax crime investigations - Other agency conducts investigations,126
+130,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Value of additional assessm_0,Value of additional assessments raised from audits and verification actions by tax type (including penalties and interest) (in thousands in local currency)-Corporate income tax,456
+140,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Value of additional assessm_0,Value of additional assessments raised from audits and verification actions by tax type (including penalties and interest) (in thousands in local currency)-Personal income tax,447
+145,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Value of additional assessm_0,Value of additional assessments raised from audits and verification actions by tax type (including penalties and interest) (in thousands in local currency)-Tax withheld by employers from employees,437
+157,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Value of additional assessm_0,Value of additional assessments raised from audits and verification actions by tax type (including penalties and interest) (in thousands in local currency)-Value added tax,412
+120,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Value of additional assessments,Value of additional assessments raised from audits and verification actions (including penalties and interest) (in thousands in local currency)-All audits (excluded electronic compliance checks),465
+111,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Value of additional assessments,Value of additional assessments raised from audits and verification actions (including penalties and interest) (in thousands in local currency)-Electronic compliance checks,468
+118,ISORA,"imf isora op metrics audit, criminal investigations, dispute resolution.xlsx",Value of additional assessments,Value of additional assessments raised from audits and verification actions (including penalties and interest) (in thousands in local currency)-Total,466
+104,ISORA,imf isora resources and ICT infrastructure.xlsx,Operational ICT solutions,Operational ICT solutions of the administration are…-Custom built,468
+105,ISORA,imf isora resources and ICT infrastructure.xlsx,Operational ICT solutions,Operational ICT solutions of the administration are…-On premises commercial off the shelf (COTS),468
+106,ISORA,imf isora resources and ICT infrastructure.xlsx,Operational ICT solutions,"Operational ICT solutions of the administration are…-Software-as-a-Service (SaaS, i.e. cloud based)",468
+134,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration expenditures,Capital expenditure - Derived,449
+124,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration expenditures,Information and communications technology expenditure - Derived,465
+115,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration expenditures,Operating expenditure - Derived,467
+113,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration expenditures,Salary expenditure - Derived,467
+92,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration staff total ,"FTEs by function of the tax administration-Audit, investigation and other verification",468
+87,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration staff total ,FTEs by function of the tax administration-Enforced debt collection and related functions,468
+116,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration staff total ,FTEs by function of the tax administration-Other functions,466
+89,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration staff total ,"FTEs by function of the tax administration-Registration, taxpayer services, returns and payment processing",468
+90,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration staff total ,Percentage of staff working on headquarter functions,468
+114,ISORA,imf isora resources and ICT infrastructure.xlsx,Tax administration staff total ,Total tax administration FTEs - Derived,467
+99,ISORA,imf isora staff metrics.xlsx,Staff academic qualifications,Academic qualifications (No. of staff at the end of FY)-Bachelors degree,468
+117,ISORA,imf isora staff metrics.xlsx,Staff academic qualifications,Academic qualifications (No. of staff at the end of FY)-Masters degree (or above),466
+93,ISORA,imf isora staff metrics.xlsx,Staff age distribution,Age distribution (No. of staff at the end of FY)-25-34 years,468
+94,ISORA,imf isora staff metrics.xlsx,Staff age distribution,Age distribution (No. of staff at the end of FY)-35-44 years,468
+96,ISORA,imf isora staff metrics.xlsx,Staff age distribution,Age distribution (No. of staff at the end of FY)-45-54 years,468
+97,ISORA,imf isora staff metrics.xlsx,Staff age distribution,Age distribution (No. of staff at the end of FY)-55-64 years,468
+98,ISORA,imf isora staff metrics.xlsx,Staff age distribution,Age distribution (No. of staff at the end of FY)-Over 64 years,468
+100,ISORA,imf isora staff metrics.xlsx,Staff age distribution,Age distribution (No. of staff at the end of FY)-Under 25 years,468
+125,ISORA,imf isora staff metrics.xlsx,Staff gender distribution,Gender distribution (No. of staff at the end of FY)-All staff-Female,465
+126,ISORA,imf isora staff metrics.xlsx,Staff gender distribution,Gender distribution (No. of staff at the end of FY)-All staff-Male,465
+127,ISORA,imf isora staff metrics.xlsx,Staff gender distribution,Gender distribution (No. of staff at the end of FY)-All staff-Other,465
+128,ISORA,imf isora staff metrics.xlsx,Staff gender distribution,Gender distribution (No. of staff at the end of FY)-Executives only-Female,465
+123,ISORA,imf isora staff metrics.xlsx,Staff gender distribution,Gender distribution (No. of staff at the end of FY)-Executives only-Male,465
+122,ISORA,imf isora staff metrics.xlsx,Staff gender distribution,Gender distribution (No. of staff at the end of FY)-Executives only-Other,465
+109,ISORA,imf isora staff metrics.xlsx,Staff length of service,Length of service (No. of staff at the end of FY)-10-19 years,468
+103,ISORA,imf isora staff metrics.xlsx,Staff length of service,Length of service (No. of staff at the end of FY)-5-9 years,468
+107,ISORA,imf isora staff metrics.xlsx,Staff length of service,Length of service (No. of staff at the end of FY)-Over 19 years,468
+102,ISORA,imf isora staff metrics.xlsx,Staff length of service,Length of service (No. of staff at the end of FY)-Under 5 years,468
+112,ISORA,imf isora staff metrics.xlsx,Staff strength levels,Staff strength levels -Departures in FY,468
+101,ISORA,imf isora staff metrics.xlsx,Staff strength levels,Staff strength levels -No. at end of FY,468
+110,ISORA,imf isora staff metrics.xlsx,Staff strength levels,Staff strength levels -No. at start of FY,468
+108,ISORA,imf isora staff metrics.xlsx,Staff strength levels,Staff strength levels -Recruitments in FY,468
+276,TJN,Financial Secrecy Index (FSI),Financial Secrecy Index (FSI),cthi__rank,134
+275,TJN,Financial Secrecy Index (FSI),Financial Secrecy Index (FSI),cthi__score,134
+277,TJN,Financial Secrecy Index (FSI),Financial Secrecy Index (FSI),cthi__share,134
+86,TJN,Financial Secrecy Index (FSI),Financial Secrecy Index (FSI),fsi__value,633
+83,TJN,Financial Secrecy Index (FSI),Financial Secrecy Index (FSI),sotj_loss_corp_musd,667
+170,TJN,Financial Secrecy Index (FSI),Financial Secrecy Index (FSI),sotj_loss_total_share_healthexpenses,378
+168,UNODC,Drug prices & seizures,Drug prices & seizures,UNODC.DPS.losses,401
+49,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.by_cit,4586
+54,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.by_pit,4459
+46,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.by_tax,4800
+58,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.by_vat,3799
+59,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.ef_c_vat,3799
+60,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.ef_vat,3799
+63,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.gcr_vat,3799
+53,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.level_h_pit,4459
+56,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.level_l_pit,4455
+50,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.prod_cit,4578
+51,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.prod_pit,4459
+47,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.rt_cit,4605
+52,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.rt_h_pit,4459
+55,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.rt_l_pit,4455
+64,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.rt_vat,3798
+273,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.tadat,150
+44,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.tax_cap,4800
+45,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.tax_eff,4800
+62,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.th_vat,3799
+61,USAID,Collecting Taxes Database (CTD),Collecting Taxes Database (CTD),USAID.CTD.yr_vat,3799
+182,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-01,186
+199,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-02,185
+193,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-02i,185
+280,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-02ii,78
+187,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-03,186
+200,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-04,184
+248,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-04i,175
+263,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-04ii,173
+185,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-05,186
+198,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-06,185
+197,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-07,185
+220,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-07i,177
+236,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-07ii,176
+268,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-08,161
+271,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-08i,155
+272,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-08ii,153
+270,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-08iii,155
+203,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-09,182
+235,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-09i,176
+269,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-09ii,157
+196,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-10,185
+195,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-11,185
+216,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-11i,178
+215,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-11ii,178
+225,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-11iii,177
+192,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-12,185
+214,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-12i,178
+253,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-12ii,174
+227,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-12iii,177
+217,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-12iv,178
+206,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-13,180
+239,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-13i,176
+240,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-13ii,176
+245,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-13iii,176
+208,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-14,180
+243,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-14i,176
+242,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-14ii,176
+241,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-14iii,176
+207,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-15,180
+254,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-15i,174
+255,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-15ii,174
+256,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-15iii,174
+189,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-16,186
+212,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-16i,178
+218,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-16ii,178
+219,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-16iii,178
+186,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-17,186
+257,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-17i,174
+210,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-17ii,180
+258,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-17iii,174
+194,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-18,185
+229,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-18i,177
+222,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-18ii,177
+231,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-18iii,177
+234,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-18iv,177
+202,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-19,182
+237,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-19i,176
+238,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-19ii,176
+246,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-19iii,176
+279,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-19iv,78
+190,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-20,186
+233,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-20i,177
+230,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-20ii,177
+228,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-20iii,177
+188,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-21,186
+232,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-21i,177
+249,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-21ii,175
+250,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-21iii,175
+191,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-22,185
+211,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-22i,179
+251,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-22ii,175
+209,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-23,180
+184,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-24,186
+226,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-24i,177
+223,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-24ii,177
+221,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-24iii,177
+183,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-25,186
+213,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-25i,178
+224,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-25ii,177
+244,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-25iii,176
+201,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-26,183
+252,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-26i,174
+266,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-26ii,171
+259,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-26iii,174
+204,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-27,182
+247,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-27i,175
+260,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-27ii,174
+262,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-27iii,173
+261,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-27iv,173
+205,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-28,180
+264,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-28i,172
+265,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-28ii,171
+267,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2011-28iii,170
+293,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-01,65
+308,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-01.1,65
+306,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-02,65
+305,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-02.1,65
+304,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-02.2,65
+303,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-02.3,65
+282,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-03,65
+294,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-03.1,65
+295,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-03.2,65
+296,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-04,65
+297,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-04.1,65
+298,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-05,65
+299,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-05.1,65
+300,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-06,65
+301,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-06.1,65
+302,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-06.2,65
+396,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-06.3,60
+397,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-07,60
+394,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-07.1,60
+393,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-07.2,60
+307,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-08,65
+313,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-08.1,65
+377,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-08.2,64
+383,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-08.3,63
+309,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-08.4,65
+310,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-09,65
+311,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-09.1,65
+312,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-10,65
+291,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-10.1,65
+392,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-10.2,61
+386,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-10.3,63
+372,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-11,64
+371,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-11.1,64
+382,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-11.1.4,63
+387,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-11.3,63
+375,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-11.3.1,64
+292,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-12,65
+314,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-12.1,65
+283,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-12.2,65
+343,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-12.3,65
+342,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-13,65
+341,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-13.1,65
+340,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-13.2,65
+339,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-13.3,65
+338,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-14,65
+337,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-14.1,65
+336,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-14.2,65
+335,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-14.3,65
+334,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-15,65
+333,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-15.1,65
+332,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-15.2,65
+395,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-15.3,60
+331,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-16,65
+330,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-16.1,65
+329,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-16.2,65
+328,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-16.3,65
+404,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-16.4,57
+327,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-17,65
+326,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-17.1,65
+325,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-17.2,65
+324,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-17.3,65
+323,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-18,65
+373,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-18.1,64
+370,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-18.2,64
+322,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-18.3,65
+321,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-18.4,65
+320,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-19,65
+319,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-19.1,65
+318,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-19.2,65
+317,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-19.3,65
+376,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-19.4,64
+345,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-20,65
+344,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-20.1,65
+316,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-20.2,65
+346,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-20.3,65
+347,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-21,65
+365,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-21.1,65
+366,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-21.2,65
+368,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-21.3,65
+364,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-21.4,65
+369,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-22,65
+367,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-22.1,65
+363,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-22.2,65
+362,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-23,65
+361,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-23.1,65
+360,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-23.2,65
+359,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-23.3,65
+358,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-23.4,65
+357,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-24,65
+356,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-24.1,65
+355,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-24.2,65
+354,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-24.3,65
+353,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-24.4,65
+352,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-25,65
+351,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-25.1,65
+350,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-25.2,65
+349,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-25.3,65
+348,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-26,65
+379,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-26.1,64
+389,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-26.2,62
+390,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-26.3,62
+398,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-26.4,59
+315,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-27,65
+380,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-27.1,64
+405,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-27.2,52
+378,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-27.3,64
+289,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-27.4,65
+288,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-28,65
+287,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-28.1,65
+385,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-28.2,63
+388,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-28.3,63
+286,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-29,65
+374,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-29.1,64
+290,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-29.2,65
+285,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-29.3,65
+284,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-30,65
+381,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-30.1,63
+384,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-30.2,63
+391,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-30.3,62
+281,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-30.4,65
+400,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-31,59
+399,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-31.1,59
+403,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-31.2,58
+401,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-31.3,59
+402,World Bank,WB-PEFA.xlsx,PEFA,WB.PEFA.PI-2016-31.4,59
+13,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,GDPLCU,7469
+19,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,GDPLCUCgr,7271
+14,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,GDPLCUClag,7292
+15,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,GDPUSD,7276
+26,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,TaxGrowth,6022
+22,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,TaxUSD,6254
+21,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,Trade,6470
+18,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,lGDPPCBin,7273
+17,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,lGDPPCUSD,7273
+180,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,mCIT,187
+177,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,mExcise,192
+176,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,mIT,192
+181,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,mPIT,187
+179,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,mProperty,190
+178,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,mSC,191
+173,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,mTaxes,196
+174,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,mTrade,194
+175,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,mVAT,193
+67,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,rCIT,2412
+73,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,rIndTax,1949
+77,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,rLabor,1439
+78,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,rLaborAll,1417
+71,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,rPIT,2209
+75,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,rSCEE,1518
+76,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,rSCER,1516
+7,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tCIT,19782
+29,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tDirect,5434
+4,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tExcise,20598
+65,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tExpenses,3593
+48,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tExtDebt,4594
+28,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tFB,5442
+0,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tG&S,24049
+16,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tGDPPCUSD,7273
+40,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tGDP_C,5082
+39,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tGDP_G,5090
+38,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tGDP_I,5133
+37,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tGDP_M,5316
+36,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tGDP_X,5317
+43,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tGGDebt,4880
+2,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tIT,23875
+25,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tIndirect,6050
+42,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tIntDebt,4880
+24,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tNon-TaxRevenue,6060
+11,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tOther,9355
+6,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tPIT,19989
+8,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tProperty,18362
+20,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tRevenue,7098
+10,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tSC,14002
+3,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tTaxes,23123
+1,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tTrade,23910
+5,World Bank,WB_TAX CPACITY AND GAP.xlsx,TAXGAP,tVAT,20594
+12,World Bank,WDI,WDI,BN.RES.INCL.CD,7555
+41,World Bank,WDI,WDI,CC.EST,4988
+66,World Bank,WDI,WDI,CM.MKT.LCAP.CD,3494
+23,World Bank,WDI,WDI,DT.DOD.DSTC.CD,6112
+68,World Bank,WDI,WDI,DT.NFL.BOND.CD,2281
+72,World Bank,WDI,WDI,FB.BNK.CAPA.ZS,1972
+57,World Bank,WDI,WDI,FD.RES.LIQU.AS.ZS,4195
+74,World Bank,WDI,WDI,FS.AST.DOMS.GD.ZS,1528
+84,World Bank,WDI,WDI,FX.OWN.TOTL.OL.ZS,653
+85,World Bank,WDI,WDI,FX.OWN.TOTL.YG.ZS,653
+27,World Bank,WDI,WDI,GC.TAX.TOTL.GD.ZS,5555
+69,World Bank,WDI,WDI,IQ.CPA.PADM.XQ,2240
+70,World Bank,WDI,WDI,IQ.CPA.PUBS.XQ,2240
+9,World Bank,WDI,WDI,NY.GDP.MKTP.CD,14307
+31,World Bank,wgidataset.xlsx,WGI,cc,5350
+33,World Bank,wgidataset.xlsx,WGI,ge,5350
+34,World Bank,wgidataset.xlsx,WGI,pv,5350
+35,World Bank,wgidataset.xlsx,WGI,rl,5350
+32,World Bank,wgidataset.xlsx,WGI,rq,5350
+30,World Bank,wgidataset.xlsx,WGI,va,5350

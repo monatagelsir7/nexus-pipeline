@@ -41,9 +41,9 @@ coverage.xml
 
 # Data and outputs
 data.zip
-data/
+data/raw/
+data/processed/
 *.parquet
-*.csv
 *.xlsx
 
 # Logs and temp files
